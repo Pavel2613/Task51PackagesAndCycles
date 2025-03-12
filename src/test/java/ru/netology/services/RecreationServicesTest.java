@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class RecreationServicesTest {
 
     @Test
-    public void PoorFreelancer() {
+    public void poorFreelancer() {
         RecreationServices service = new RecreationServices();
         int expected = 3;
         int result = service.calculate(10_000, 3_000, 20_000);
@@ -17,7 +17,7 @@ public class RecreationServicesTest {
     }
 
     @Test
-    public void RichFreelancer() {
+    public void richFreelancer() {
         RecreationServices service = new RecreationServices();
         int expected = 2;
         int result = service.calculate(100_000, 60_000, 150_000);
